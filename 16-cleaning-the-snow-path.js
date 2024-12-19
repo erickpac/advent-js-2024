@@ -25,15 +25,15 @@ function removeSnow(s) {
 
 // Test cases
 console.log("\n16.- ❄️ Cleaning the snow path");
-removeSnow("zxxzoz"); // -> "oz"
+console.log(removeSnow("zxxzoz")); // -> "oz"
 // 1. Remove "xx", resulting in "zzoz"
 // 2. Remove "zz", resulting in "oz"
 
-removeSnow("abcdd"); // -> "abc"
+console.log(removeSnow("abcdd")); // -> "abc"
 // 1. Remove "dd", resulting in "abc"
 
-removeSnow("zzz"); // -> "z"
+console.log(removeSnow("zzz")); // -> "z"
 // 1. Remove "zz", resulting in "z"
 
-removeSnow("a"); // -> "a"
+console.log(removeSnow("a")); // -> "a"
 // No duplicate piles

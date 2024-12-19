@@ -26,6 +26,7 @@ function minMovesToStables(reindeer, stables) {
   return totalMoves;
 }
 
-// Examples
+// Test cases
+console.log("\n14.- 🦌 Weaving the reno");
 console.log(minMovesToStables([2, 6, 9], [3, 8, 5])); // -> 3
 console.log(minMovesToStables([1, 1, 3], [1, 8, 4])); // -> 8
